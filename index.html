@@ -8,6 +8,8 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/img/favicon.png">
     <title>Whatplant</title>
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://stewartdouglas.github.io';}"></iframe>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -63,13 +65,13 @@
 					  <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
 					</form>		
 					-->
-					<form action="https://docs.google.com/forms/d/1_JZyvOcsX0zfsAR4UTauXw7E-qm88HYLiWC8j1DcYx4/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><div role="list">
+					<form action="https://docs.google.com/forms/d/1_JZyvOcsX0zfsAR4UTauXw7E-qm88HYLiWC8j1DcYx4/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true" ><div role="list">
 						<div class="ss-form-question errorbox-good" role="listitem" style="display:inline-block">
 						<div dir="ltr" class="ss-item  ss-text">
 						<div class="ss-form-entry"><label class="ss-q-item-label" for="entry_1128152222">
 						<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
 						
-						<input type="text" name="entry.1128152222" placeholder="Enter your email for updates" value="" class="ss-q-short" id="entry_1128152222" style="width:300px" dir="auto" aria-label="Email  " title="">
+						<input type="text" name="entry.1128152222" placeholder="Enter your email for updates" value="" class="ss-q-short" id="entry_1128152222" style="width:300px" dir="auto" aria-label="Email  " pattern=".*@.*" title="Please enter a valid email address">
 						<div class="error-message"></div>
 						</div></div></div>
 						<input type="hidden" name="draftResponse" value="[,,&quot;8361750514136867773&quot;]">
@@ -212,7 +214,7 @@
 		<div class="row mt centered">
 			<div class="col-lg-6 col-lg-offset-3">
 				<h1>Our Awesome Team.</h1>
-				<h3> </h3>
+				<h3> We are a group of MSc Computing Science students from Imperial College London. We are passionate about v</h3>
 			</div>
 		</div><!-- /row -->
 		
@@ -271,6 +273,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+
     <!--
     <script type="text/javascript">var submitted=false;</script>
     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://www.dagmetrics.com';}"></iframe>
