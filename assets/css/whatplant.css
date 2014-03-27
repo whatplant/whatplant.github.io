@@ -1,0 +1,28 @@
+#app {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#technology {
+	background-color: #C3EFBA;
+	color: #000000;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	margin-top: 10px;
+}
+
+#technology div div div p {
+	font-size: 120% !important;
+}
+
+#team {
+	 margin-top: 10px; 
+}
+
+#team div {
+	margin-bottom: 10px;
+}
+
+#team div div p {
+	margin-bottom: 0px;
+}
