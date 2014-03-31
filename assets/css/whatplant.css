@@ -1,3 +1,13 @@
+#form_submitted {
+	background-color: #C3EFBA;
+	width: 370px;
+	margin-top: 10px;
+	margin-left: 3px;
+	padding: 3px;
+	font-weight: bold;
+	display: none;
+}
+
 #app {
 	padding-top: 20px;
 	padding-bottom: 20px;
