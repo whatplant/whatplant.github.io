@@ -8,3 +8,13 @@ $(function() {
         event.preventDefault();
     });
 });
+
+function form_submitted(){
+	alert("foo!");
+}
+
+$(document).ready(function(){
+	if(document.URL == 'http://whatplant.github.io?submitted=true;'){
+		alert("Thank you for submitting!")
+	};
+});
