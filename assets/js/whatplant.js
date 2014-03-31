@@ -14,7 +14,7 @@ function form_submitted(){
 }
 
 $(document).ready(function(){
-	if(document.URL == 'http://whatplant.github.io?submitted=true;'){
+	if(document.URL == 'http://whatplant.github.io/?submitted=true;'){
 		alert("Thank you for submitting!")
 	};
 });
