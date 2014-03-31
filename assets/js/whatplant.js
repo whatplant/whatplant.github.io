@@ -11,6 +11,6 @@ $(function() {
 
 $(document).ready(function(){
 	if(document.URL == 'http://whatplant.github.io/?submitted=true'){
-		$('#form_submitted').finish().fadeIn("fast").delay(1000).fadeOut("slow");
+		$('#form_submitted').finish().fadeIn("fast").delay(4000).fadeOut("slow");
 	};
 });
