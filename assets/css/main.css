@@ -90,8 +90,9 @@ a:after {
 
 .navbar-default {
 	/* background-color: #3498db; */
-	background-color: #4DBD33;
-    border-color: transparent;
+	/* background-color: #4DBD33; */
+    background-color: #7EB12C;
+    border-color: transparent; 
 }
 
 .navbar-default .navbar-brand {
@@ -125,7 +126,8 @@ i {
 #headerwrap {
 	/* background: url(../img/bg01.jpg) no-repeat center top; */
 	/*background-color: #3498db; */
-    background-color: #4DBD33; 
+    /*background-color: #4DBD33; */
+    background-color: #7EB12C;
 	margin-top: -20px;
 	padding-top:200px;
 	background-attachment: relative;
